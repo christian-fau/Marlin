@@ -116,6 +116,9 @@
 #if ANY_THERMISTOR_IS(110) // Pt100 with 1k0 pullup
   #include "thermistortable_110.h"
 #endif
+#if ANY_THERMISTOR_IS(127) // // QU-BD silicone bed QWG-104F-3950 thermistor
+  #include "thermistortable_127.h"
+#endif
 #if ANY_THERMISTOR_IS(147) // Pt100 with 4k7 pullup
   #include "thermistortable_147.h"
 #endif
